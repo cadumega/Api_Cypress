@@ -24,7 +24,10 @@ Configurar a baseUrl, no swagger da doc. clicar em try it out...
 https://fakerestapi.azurewebsites.net/api
 
 
-payloads - colocar os json, tudo que vou enviar
+payloads - colocar os json, tudo que vou enviar , dos body
 
 verbo do método, o endpoint , o motivo do arquivo e por fim a extensão.
+
+Testes iniciais para validar as operações da API.
+Teste de contato, validar campo a campo, se é realmente o que necessitamos.
 */
