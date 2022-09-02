@@ -1,0 +1,29 @@
+{
+  "name": "api_cypress",
+  "version": "1.0.0",
+  "description": "Testes na fakerestapi",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:run": "./node_modules/.bin/cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cadumega/Api_Cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cadumega/Api_Cypress/issues"
+  },
+  "homepage": "https://github.com/cadumega/Api_Cypress#readme",
+  "dependencies": {
+    "cypress": "^10.7.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.5.0",
+    "cypress-downloadfile": "^1.2.3",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
