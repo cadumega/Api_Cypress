@@ -1,35 +1,6 @@
 # Api_Cypress
- Testes na fakerestapi
 
-
-
-describe('empty spec', () => {
-  it('passes', () => {
-    cy.visit('https://example.cypress.io')
-  })
-})
-
-
-/// <reference types="cypress" />
-
-describe("Teste", () => {
-    it("GET: Verificar Usuários", () => {
-        Usuarios.usuarios().should((response) => {
-            expect(response.status).to.eq(200);
-        })
-    })
-})
-
-
-function usuarios() {
-    return cy.request({
-        method:'GET',
-        url:`${Cypress.env("apiUrl")}/users`
-    })
-}
-
-
-/* FakeRESTApi.Web V1
+## FakeRESTApi.Web V1
 https://fakerestapi.azurewebsites.net/index.html
 
 Testar camada de dados , as requests e suas responses.
@@ -55,5 +26,5 @@ https://fakerestapi.azurewebsites.net/api
 
 payloads - colocar os json, tudo que vou enviar
 
-verbo do método, o endpoint e o motivo do arquivo e por fim a extensão.
+verbo do método, o endpoint , o motivo do arquivo e por fim a extensão.
 */
